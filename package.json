@@ -6,7 +6,9 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "clean": "rd /s /q dist",
+    "deploy": "npm run build && \"C:\\Windows\\System32\\OpenSSH\\ssh.exe\" ubuntu@57.129.122.145 \"rm -rf /var/www/html/*\" && \"C:\\Windows\\System32\\OpenSSH\\scp.exe\" -r dist/* ubuntu@57.129.122.145:/var/www/html/"
   },
   "repository": {
     "type": "git",
