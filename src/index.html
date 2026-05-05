@@ -18,11 +18,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Thomas Vallé | Développeur PHP/Symfony</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="thomas, vallé, php, symfony, développeur, web, html, css" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Vallé | Developer" />
 
     <link
       rel="stylesheet"
@@ -46,13 +46,13 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Un opticien qui a troqué <span class="text-color-main">les lunettes</span>
           <br />
-          I'm the Unknown Developer.
+          contre du code PHP/Symfony.
         </h1>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects"
+            >Voir mes projets</a
           >
         </p>
       </div>
@@ -62,7 +62,7 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
+        <h2 class="section-title load-hidden">À propos de moi</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
@@ -71,7 +71,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/profile.png"
                 alt="Profile Image"
               />
             </div>
@@ -79,21 +79,26 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                Pendant 16 ans, j'ai aidé des gens à mieux voir le monde.
+                Aujourd'hui, je préfère le construire, ligne de code après ligne de code.
+                Titulaire du TP Développeur Web et Web Mobile, je développe des applications web avec
+                PHP 8.2 / Symfony 7.4 côté back-end, et HTML5 / CSS3 /
+                JavaScript / Bootstrap 5 côté front.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                Basé dans l'Ain (01), je cherche une équipe où la curiosité
+                technique est aussi importante que la qualité du code.
+                J'aime comprendre pourquoi ça marche, pas juste que ça marche.
               </p>
               <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
-                >
-                  View Resume
-                </a>
+<!--                <a-->
+<!--                  rel="noreferrer"-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn cta-btn&#45;&#45;resume"-->
+<!--                  href="assets/resume.pdf"-->
+<!--                >-->
+<!--                  View Resume-->
+<!--                </a>-->
               </span>
             </div>
           </div>
@@ -106,41 +111,51 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title dark-blue-text">Mes Projets</h2>
 
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Vite & Gourmand</h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                    Application web de commande en ligne pour un traiteur fictif,
+                    développée de A à Z dans le cadre de mon TP DWWM.</br>
+                    Stack : Symfony 7.4, MySQL, MongoDB, Bootstrap 5.</br>
+                    Fonctionnalités : commandes, avis clients, calcul de livraison
+                    via API, espace admin EasyAdmin, statistiques NoSQL.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://vite-et-gourmand.onrender.com/"
                 >
-                  See Live
+                  Application déployée
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/Thomas2216/Vite-et-gourmand"
                 >
-                  Source Code
+                  Code source
                 </a>
+<!--                <a-->
+<!--                  rel="noreferrer"-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn text-color-main"-->
+<!--                  href="assets/dossier"-->
+<!--                >-->
+<!--                  Dossier projet-->
+<!--                </a>-->
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://github.com/Thomas2216/Vite-et-gourmand" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -151,7 +166,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/vitegourmand.png"
                     />
                   </div>
                 </a>
@@ -164,35 +179,36 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">EcoRide</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    Plateforme de covoiturage développée avec Symfony 7.3.</br>
+                    Authentification par rôles, création et affichage de trajets,
+                    statistiques de visites en MongoDB, conteneurisation Docker.</br>
+                    Projet d'école en cours de développement.
                   </p>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
+<!--                <a-->
+<!--                  rel="noreferrer"-->
+<!--                  target="_blank"-->
+<!--                  class="cta-btn cta-btn&#45;&#45;hero"-->
+<!--                  href="#!"-->
+<!--                >-->
+<!--                  See Live-->
+<!--                </a>-->
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/Thomas2216/EcoRide"
                 >
-                  Source Code
+                  Code Source
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://github.com/Thomas2216/EcoRide" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -203,58 +219,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/ecoride.png"
                     />
                   </div>
                 </a>
@@ -272,13 +237,13 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">Disponible pour un poste de développeur web dans l'Ain, Lyon et ses alentours.</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:valle_thomas@hotmail.fr"
+            >Me contacter</a
           >
         </div>
       </div>
@@ -292,49 +257,16 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/thomas-valle-dev/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/Thomas2216" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
-
         <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
+          © 2026 Thomas Valle — Développeur Web PHP/Symfony
         </p>
       </div>
     </footer>
